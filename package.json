@@ -1,9 +1,6 @@
 {
-  "name": "@Viacheslav-Koksharov/hooks-library",
-  "publishConfig": {
-    "registry": "<https://npm.pkg.github.com/Viacheslav-Koksharov>"
-  },
-  "version": "0.0.1",
+  "name": "custom-hooks-petrovich-library",
+  "version": "0.0.4",
   "description": "",
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs",
@@ -29,6 +26,9 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
+    "@rollup/plugin-json": "^6.0.0",
+    "axios": "^1.4.0",
+    "react-router-dom": "^6.11.2",
     "rollup-plugin-esbuild": "^5.0.0"
   }
 }
